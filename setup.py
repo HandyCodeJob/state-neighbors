@@ -23,23 +23,23 @@ test_requirements = [
 ]
 
 setup(
-    name='state-neighbors',
+    name='state_neighbors',
     version='0.1.2',
     description="Small helper package that allnput and returns a dictionary of all the states that neighbor it.",
     long_description=readme + '\n\n' + history,
     author="Sydney Henry",
     author_email='shenry@handycodejob.com',
-    url='https://github.com/sydhenry/state-neighbors',
+    url='https://github.com/sydhenry/state_neighbors',
     packages=[
-        'state-neighbors',
+        'state_neighbors',
     ],
-    package_dir={'state-neighbors':
+    package_dir={'state_neighbors':
                  'state_neighbors'},
     include_package_data=True,
     install_requires=requirements,
     license="ISCL",
     zip_safe=False,
-    keywords='state-neighbors',
+    keywords='state_neighbors',
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
         'Intended Audience :: Developers',

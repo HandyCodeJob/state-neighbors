@@ -34,7 +34,7 @@ htmlcov
 .mr.developer.cfg
 .project
 .pydevproject
-.swp
+*.swp
 
 # Complexity
 output/*.html

@@ -5,7 +5,7 @@
 test_state_neighbors
 ----------------------------------
 
-Tests for `state-neighbors` module.
+Tests for `state_neighbors` module.
 """
 
 import unittest
