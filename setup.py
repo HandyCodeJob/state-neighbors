@@ -24,7 +24,7 @@ test_requirements = [
 
 setup(
     name='state-neighbors',
-    version='0.1.0',
+    version='0.1.2',
     description="Small helper package that allnput and returns a dictionary of all the states that neighbor it.",
     long_description=readme + '\n\n' + history,
     author="Sydney Henry",

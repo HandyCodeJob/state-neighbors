@@ -2,4 +2,4 @@
 
 __author__ = 'Sydney Henry'
 __email__ = 'shenry@handycodejob.com'
-__version__ = '0.1.0'
+__version__ = '0.1.2'
