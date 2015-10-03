@@ -46,8 +46,8 @@ class StateNeighbors(object):
                 states.popitem('AK')
                 states.popitem('HI')
                 if self.allow_blank:
-                    states.update({'AK', []})
-                    states.update({'HI', []})
+                    states.update({'AK': []})
+                    states.update({'HI': []})
         return states
 
     def state_neighbors(self, state):
