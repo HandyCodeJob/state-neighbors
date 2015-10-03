@@ -13,7 +13,7 @@ Types of Contributions
 Report Bugs
 ~~~~~~~~~~~
 
-Report bugs at https://github.com/sydhenry/state-neighbors/issues.
+Report bugs at https://github.com/sydhenry/state_neighbors/issues.
 
 If you are reporting a bug, please include:
 
@@ -43,7 +43,7 @@ articles, and such.
 Submit Feedback
 ~~~~~~~~~~~~~~~
 
-The best way to send feedback is to file an issue at https://github.com/sydhenry/state-neighbors/issues.
+The best way to send feedback is to file an issue at https://github.com/sydhenry/state_neighbors/issues.
 
 If you are proposing a feature:
 
@@ -55,17 +55,17 @@ If you are proposing a feature:
 Get Started!
 ------------
 
-Ready to contribute? Here's how to set up `state-neighbors` for local development.
+Ready to contribute? Here's how to set up `state_neighbors` for local development.
 
-1. Fork the `state-neighbors` repo on GitHub.
+1. Fork the `state_neighbors` repo on GitHub.
 2. Clone your fork locally::
 
-    $ git clone git@github.com:your_name_here/state-neighbors.git
+    $ git clone git@github.com:your_name_here/state_neighbors.git
 
 3. Install your local copy into a virtualenv. Assuming you have virtualenvwrapper installed, this is how you set up your fork for local development::
 
-    $ mkvirtualenv state-neighbors
-    $ cd state-neighbors/
+    $ mkvirtualenv state_neighbors
+    $ cd state_neighbors/
     $ python setup.py develop
 
 4. Create a branch for local development::
@@ -76,7 +76,7 @@ Ready to contribute? Here's how to set up `state-neighbors` for local developmen
 
 5. When you're done making changes, check that your changes pass flake8 and the tests, including testing other Python versions with tox::
 
-    $ flake8 state-neighbors tests
+    $ flake8 state_neighbors tests
     $ python setup.py test
     $ tox
 
@@ -100,7 +100,7 @@ Before you submit a pull request, check that it meets these guidelines:
    your new functionality into a function with a docstring, and add the
    feature to the list in README.rst.
 3. The pull request should work for Python 2.6, 2.7, 3.3, and 3.4, and for PyPy. Check
-   https://travis-ci.org/sydhenry/state-neighbors/pull_requests
+   https://travis-ci.org/sydhenry/state_neighbors/pull_requests
    and make sure that the tests pass for all supported Python versions.
 
 Tips
@@ -108,4 +108,4 @@ Tips
 
 To run a subset of tests::
 
-    $ python -m unittest tests.test_state-neighbors
+    $ python -m unittest tests.test_state_neighbors
