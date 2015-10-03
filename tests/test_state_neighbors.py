@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 """
-test_state-neighbors
+test_state_neighbors
 ----------------------------------
 
 Tests for `state-neighbors` module.
@@ -10,10 +10,10 @@ Tests for `state-neighbors` module.
 
 import unittest
 
-from state-neighbors import state-neighbors
+from state_neighbors import state_neighbors
 
 
-class TestState-neighbors(unittest.TestCase):
+class TestStateNeighbors(unittest.TestCase):
 
     def setUp(self):
         pass

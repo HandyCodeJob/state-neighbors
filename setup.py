@@ -34,7 +34,7 @@ setup(
         'state-neighbors',
     ],
     package_dir={'state-neighbors':
-                 'state-neighbors'},
+                 'state_neighbors'},
     include_package_data=True,
     install_requires=requirements,
     license="ISCL",
