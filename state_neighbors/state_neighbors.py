@@ -37,7 +37,7 @@ class StateNeighbors(object):
         handles states that are not contiguous and either removes them
         (`contiguous=True`) and allows for empty lists to be returned.
         """
-        with open('state_neighbors.csv') as csvfile:
+        with open(self.file_name) as csvfile:
             states = OrderedDict() if self.ordered else dict()
             reader = csv.DictReader(csvfile)
             for row in reader:
