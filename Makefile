@@ -46,7 +46,7 @@ clean-test:
 	rm -fr htmlcov/
 
 lint:
-	flake8 state-neighbors tests
+	flake8 state_neighbors tests
 
 test:
 	python setup.py test
@@ -55,15 +55,15 @@ test-all:
 	tox
 
 coverage:
-	coverage run --source state-neighbors setup.py test
+	coverage run --source state_neighbors setup.py test
 	coverage report -m
 	coverage html
 	$(BROWSER) htmlcov/index.html
 
 docs:
-	rm -f docs/state-neighbors.rst
+	rm -f docs/state_neighbors.rst
 	rm -f docs/modules.rst
-	sphinx-apidoc -o docs/ state-neighbors
+	sphinx-apidoc -o docs/ state_neighbors
 	$(MAKE) -C docs clean
 	$(MAKE) -C docs html
 	$(BROWSER) docs/_build/html/index.html
